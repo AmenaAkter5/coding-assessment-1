@@ -12,17 +12,20 @@ const row2 = document.getElementById('row-2');
 const cell2 = row2.insertCell(0);
 cell2.textContent = row2.rowIndex;
 
+
 // row - 3
 const row3 = document.getElementById('row-3');
 
 const cell3 = row3.insertCell(0);
 cell3.textContent = row3.rowIndex;
 
+
 // row - 4
 const row4 = document.getElementById('row-4');
 
 const cell4 = row4.insertCell(0);
 cell4.textContent = row4.rowIndex;
+
 
 // row - 5
 const row5 = document.getElementById('row-5');
@@ -32,6 +35,9 @@ cell5.textContent = row5.rowIndex;
 
 
 
+
+
+// add row to bottom button event handler
 
 const addRowBottom = () => {
     const table = document.getElementById("table");
@@ -55,6 +61,10 @@ const addRowBottom = () => {
     row6Cell6.textContent = row6.rowIndex;
     row6.deleteCell(1);
 }
+
+
+
+// add row to top button event handler
 
 const addRowTop = () => {
     const table = document.getElementById("table");
